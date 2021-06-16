@@ -20,6 +20,10 @@ const recetaSchema = mongoose.Schema({
             gramos: {
                 type: Number,
                 required: true
+            },
+            ingredientesImg: {
+                type: String,
+                required: true
             }
         }],
         required: true
